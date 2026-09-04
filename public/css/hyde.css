@@ -249,3 +249,34 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* Aufklappbares Menü */
+.sidebar-group > summary {
+  color: #fff;
+  cursor: pointer;
+  list-style: none;
+}
+
+.sidebar-group > summary::-webkit-details-marker {
+  display: none;
+}
+
+.sidebar-group > summary::after {
+  content: "+";
+  float: right;
+}
+
+.sidebar-group[open] > summary::after {
+  content: "−";
+}
+
+.sidebar-group:not([open]) .sidebar-subnav {
+  display: none;
+}
+
+.sidebar-subnav a {
+  display: block;
+  padding-left: 1rem;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.75;
+}
