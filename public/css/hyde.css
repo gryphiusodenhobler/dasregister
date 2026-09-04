@@ -84,10 +84,17 @@ html {
   font-size: 2.55rem;
   white-space: nowrap;
 }
+.sidebar-about .lead {
+  margin-bottom: 0;
+}
+
+.sidebar-about {
+  margin-bottom: 2rem;
+}
 
 /* Sidebar nav */
 .sidebar-nav {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .sidebar-nav-item {
   display: block;
