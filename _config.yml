@@ -15,7 +15,7 @@ tagline: Touren und Aufzeichnungen
 description: Touren, Wege und Aufzeichnungen.
 
 url: https://dasregister.at
-baseurl: /dasregister/
+baseurl: /
 
 author:
   name: Das Register
